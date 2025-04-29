@@ -49,20 +49,7 @@ class BankAccount{
 		}	
 	}
 };
- //class InsufficientFundsException : public BankAccount{ 
-//		public:
-//		catch(double amount){
-//		cout<<"error balance"<<endl;
-//		}
-//	};
-//	class InvalidTransactionException : public BankAccount{
-//			public:
-//			cout<<"error tansaction"<<endl;
-//	};
-//	class DivideByZeroException : public BankAccount{
-//		public:
-//		cout<<"error divide"<<endl;
-//	};
+
 
 int main(){
 	BankAccount b1("abc",5000);
